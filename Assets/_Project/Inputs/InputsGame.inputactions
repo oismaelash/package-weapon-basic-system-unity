@@ -1,0 +1,54 @@
+{
+    "name": "InputsGame",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "9b5d79ab-6736-4b46-b5a3-399cbae68a5a",
+            "actions": [
+                {
+                    "name": "MouseScrollY",
+                    "type": "PassThrough",
+                    "id": "6bf660af-482f-4396-8d71-4d8172df420c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "c4c54a3a-4f0b-45a0-9ec7-36b6a22381c7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "49226402-21c5-4f9e-941b-d58e907499ff",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseScrollY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21e20887-194d-4c60-ada9-30ddd64d5325",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
