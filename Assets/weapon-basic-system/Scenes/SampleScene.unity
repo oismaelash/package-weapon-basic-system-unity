@@ -845,7 +845,6 @@ MonoBehaviour:
   - {fileID: 8959167752254998954, guid: 5ba1d52204a146246913bb906b82742d, type: 3}
   - {fileID: 8959167752254998954, guid: 3dd577b744734104b9baac4d2921b9de, type: 3}
   - {fileID: 8959167752254998954, guid: f1bb53f117213b6418540e8c40f44b7d, type: 3}
-  currentWeapon: 0
   weaponPivot: {fileID: 792848811}
   weaponImage: {fileID: 716181761}
   bulletCountText: {fileID: 1287705692}
@@ -882,6 +881,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8959167752254998954, guid: 5ba1d52204a146246913bb906b82742d, type: 3}
       propertyPath: BulletsPlace.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959167752254998954, guid: 5ba1d52204a146246913bb906b82742d, type: 3}
+      propertyPath: bulletsPlace.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8959167752254998954, guid: 5ba1d52204a146246913bb906b82742d, type: 3}

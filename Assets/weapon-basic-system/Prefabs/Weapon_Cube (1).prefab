@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 8959167752254998959}
   - component: {fileID: 8959167752254998954}
   m_Layer: 0
-  m_Name: Weapon_Cube (2)
+  m_Name: Weapon_Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4d889bd9dabe1b04d9e9a0c5ca886b74, type: 2}
+  - {fileID: 2100000, guid: 388e87ec8e5abf34980b9ca600941a10, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -145,14 +145,13 @@ MonoBehaviour:
   id: default
   WeaponType: 0
   bulletPrefab: {fileID: 6359658024503597811, guid: 3c7f1562c9b6654408d15b8f09d07115, type: 3}
-  BulletsPlace:
+  bulletsPlace:
   - {fileID: 8959167751503957075}
-  Damage: 5
-  Icon: {fileID: 21300000, guid: 88dc5686b32651b49a00b48fdc9be228, type: 3}
-  DelayBetweenShot: 0.5
-  BulletSpeed: 2
-  Impulse: 1
+  damage: 0
+  Icon: {fileID: 21300000, guid: 30e530881fbad7e468673ac6168a7b58, type: 3}
+  delayBetweenShot: 0
+  bulletSpeed: 1
+  impulseForce: 0
   shotParticleSystem: {fileID: 1847161501260672081, guid: b90b30a81bc16464480086c7b2c8134b, type: 3}
-  TimeToReload: 1
-  Reloading: 0
-  IsActive: 0
+  timerForReload: 0
+  audioShotName: 
